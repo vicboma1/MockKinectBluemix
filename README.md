@@ -1,7 +1,7 @@
 # Mock Kinect Bluemix
 Proyecto que forma parte del starter kit de la hackathon
 
-![](https://github.com/vicboma1/TemplateBluemixNodeRED/blob/master/assets/_mockKinectNodeRED.png)
+![](https://github.com/vicboma1/MockKinectBluemix/blob/master/assets/_mockKinectNodeRED.png)
 
 
 La solución mostrada apunta a una base de datos que mockea nuestro dispositivo Kinect.
@@ -10,10 +10,10 @@ Se puede visualizar en el esquema la omisión del "nodo IoT Watson" por dos nuev
   * All Documents : Es el nodo que representa la base de datos. Punto de salida de la información de la kinect.
   
 
-![](https://github.com/vicboma1/TemplateBluemixNodeRED/blob/master/assets/_mockKinectNodeRED.gif)
+![](https://github.com/vicboma1/MockKinectBluemix/blob/master/assets/_mockKinectNodeRED.gif)
 
 ## Pasos a seguir
-1.   Copiar la ![Plantilla txt](https://raw.githubusercontent.com/vicboma1/TemplateBluemixNodeRED/master/assets/_mockKinectNodeRED.txt) con "Control A" + "Control C"
+1.   Copiar la ![Plantilla txt](https://raw.githubusercontent.com/vicboma1/MockKinectBluemix/master/assets/_mockKinectNodeRED.txt) con "Control A" + "Control C"
 
 2.   Ir al menú contextual de nuestra aplicación Node-RED
 
