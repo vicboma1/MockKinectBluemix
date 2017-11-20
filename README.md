@@ -7,7 +7,7 @@ Proyecto que forma parte del starter kit de la hackathon
 La solución mostrada apunta a una base de datos que mockea nuestro dispositivo Kinect.
 Se puede visualizar en el esquema la omisión del "nodo IoT Watson" por dos nuevos componentes.
   * TimeStamp : Es un nodo que injecta llamadas. Automáticamente cuando se haga 'Deploy', lanza un pulso cada 'x' segundos.
-  * All Documents : Es el nodo que representa la base de datos. Punto de salida de la información de la kinect.
+  * All Documents : Es el nodo que representa la información que envía la kinect a modo de Mock.
   
 
 ![](https://github.com/vicboma1/MockKinectBluemix/blob/master/assets/_mockKinectNodeRED.gif)
@@ -25,13 +25,11 @@ Se puede visualizar en el esquema la omisión del "nodo IoT Watson" por dos nuev
 
 6.   Aceptar pulsando el botón de "Import"
 
-7.   Configura el nodo IBM IoT Input con la Api Key de tu Universidad.
+7.   Para renderizar los componentes del dashboard necesitas instalar la dependencia "node-red-dashboard"
 
-8.   Para renderizar los componentes del dashboard necesitas instalar la dependencia "node-red-dashboard"
+8.   Ir al menú contextual de nuestra aplicación Node-Red -> "Manage Palette" -> Install
 
-9.   Ir al menú contextual de nuestra aplicación Node-Red -> "Manage Palette" -> Install
-
-10.  Escribimos -> "node-red-dashboard" para Web | "node-red-dashboard-es" para mobile
+9.  Escribimos -> "node-red-dashboard" para Web | "node-red-dashboard-es" para mobile
 
 
 
