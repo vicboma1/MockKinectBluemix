@@ -1,13 +1,15 @@
 # Mock Kinect Bluemix
 Proyecto que forma parte del starter kit de la hackathon
 
-![](https://github.com/vicboma1/MockKinectBluemix/blob/master/assets/_mockKinectNodeRED.png)
+![](https://github.com/vicboma1/MockKinectBluemix/blob/master/assets/mockKinectNodeRED.png)
 
 
-La solución mostrada apunta a una base de datos que mockea nuestro dispositivo Kinect.
-Se puede visualizar en el esquema la omisión del "nodo IoT Watson" por dos nuevos componentes.
-  * TimeStamp : Es un nodo que injecta llamadas. Automáticamente cuando se haga 'Deploy', lanza un pulso cada 'x' segundos.
-  * All Documents : Es el nodo que representa la información que envía la kinect a modo de Mock.
+La solución muestra un escenario con una conexión mockeada del dispositivo Kinect hacia un IoT Watson input.
+Los siguientes nodos describen los siguiente:
+  * Inject : Es un nodo que injecta llamadas. Automáticamente cuando se haga 'Deploy', lanza un pulso cada 'x' segundos.
+  * Mock All Documentes : Es un nodo que mockea nuestra kinect.
+  * IoT Watson ouput : Es el nodo publicador que lanza los mensajes a través del protocolo MQTT que usa la kinect.
+  * IoT Watson input : Es un nodo IoT Watson que escucha los paquetes enviados por la kinect. consumidor.
   
 
 ![](https://github.com/vicboma1/MockKinectBluemix/blob/master/assets/_mockKinectNodeRED.gif)
